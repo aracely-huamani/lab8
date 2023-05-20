@@ -12,6 +12,8 @@ export class AppComponent {
   sitio='http://www.google.com';
   sueldos = [1700,1600,1900];
   activo = true;
+  profesion='';
+  anios='';
 
   esActivo(){
     if(this.activo)
